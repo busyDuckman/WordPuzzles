@@ -11,7 +11,10 @@ The project is licenced under [GPLv3](http://www.gnu.org/licenses/gpl-3.0.html)
 
 # Download
 
+  (Latest release 0.8-Alpha)[https://github.com/busyDuckman/WordPuzzles/releases/download/v0.8_alpha/publish_wordpuzzles_0.8.zip]
 
+# Getting Started
+  - Press F5 for a new maze...
 
 # Limitations:
   - Apha software (very incomplete)
