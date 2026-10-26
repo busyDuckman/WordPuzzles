@@ -12,7 +12,8 @@ This is still very much alpha software (totally unfinished).  This crossword puz
 It uses the [GNU Collaborative International Dictionary of English](http://gcide.gnu.org.ua/) as the source for it's english dictionary.
 
 > [!NOTE]
-> **This project is mothballed.** It is no longer being actively developed, and issues and pull requests are unlikely to be addressed. The code is left here as-is for anyone who finds it useful.
+> **This project is mothballed.** It is no longer being developed, The code is left here as-is for anyone who finds it useful.
+> Before mothballing I only verified that it still ran.
 >
 > Note: I left this to create a commercial product instead, using Rust: [TickWords](https://tickwords.com/).
 
