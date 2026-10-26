@@ -1,10 +1,20 @@
 # Word Puzzles
+
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE.txt)
+[![Latest release](https://img.shields.io/github/v/release/busyDuckman/WordPuzzles?include_prereleases)](https://github.com/busyDuckman/WordPuzzles/releases)
+![Platform: Windows](https://img.shields.io/badge/platform-Windows-0078D6.svg)
+![.NET Framework 4.7.2](https://img.shields.io/badge/.NET%20Framework-4.7.2-512BD4.svg)
+![Language: C#](https://img.shields.io/badge/language-C%23-239120.svg)
+![Status: alpha](https://img.shields.io/badge/status-alpha-orange.svg)
+
 Easy to use software to generate crossword puzzles.
 This is still very much alpha software (totally unfinished).  This crossword puzzle generator is provided here for those who would like to kick the tyres and get a preview of some upcoming software.
 It uses the [GNU Collaborative International Dictionary of English](http://gcide.gnu.org.ua/) as the source for it's english dictionary.
 
-The code is Copyright (C) 2013, Dr Warren Creemers.
-The project is licenced under [GPLv3](http://www.gnu.org/licenses/gpl-3.0.html)
+> [!NOTE]
+> **This project is mothballed.** It is no longer being actively developed, and issues and pull requests are unlikely to be addressed. The code is left here as-is for anyone who finds it useful.
+>
+> Note: I left this to create a commercial product instead, using Rust: [TickWords](https://tickwords.com/).
 
 # Screen Shot
 ![Screen Shot](Screenshots/wordselect.png?raw=true "Screen Shot")
@@ -12,6 +22,16 @@ The project is licenced under [GPLv3](http://www.gnu.org/licenses/gpl-3.0.html)
 # Download
 
   [Latest release 0.8-Alpha](https://github.com/busyDuckman/WordPuzzles/releases/download/v0.8_alpha/publish_wordpuzzles_0.8.zip)
+
+# Building and Running
+Requires Windows and the .NET Framework 4.7.2 Developer Pack (included with the Visual Studio ".NET desktop development" workload).
+
+  - **Visual Studio:** open WordPuzzles.sln and press F5. 
+
+  - **Command line:** from a Developer Command Prompt:
+
+    msbuild WordPuzzles.sln -restore -p:RestorePackagesConfig=true
+    bin\Debug\WordPuzzles.exe
 
 # Getting Started
   - Press F5 for a new maze...
